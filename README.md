@@ -7,7 +7,7 @@
 
 Goal: A miniaturized website status monitoring dashboard
 
-There are many tools that monitor the up-time of websites. Today you will be making a miniaturized version of a website monitoring dashboard. Uptime can typically be determined by a status 200 to indicate it is available and status 400 or 404 otherwise.
+There are many tools that monitor the up-time of websites. Today you will be making a miniaturized version of a website monitoring dashboard. A website's uptime can typically be determined by a status 200 to indicate it is available and status 400 or 404 otherwise.
 
 Requirements:
 1. **Frontend**: A single page web-app with the following components
