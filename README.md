@@ -9,7 +9,8 @@ Goal: A miniaturized website status monitoring dashboard
 
 There are many tools that monitor the up-time of websites. Today you will be making a miniaturized version of a website monitoring dashboard. A website's uptime can typically be determined by a status 200 to indicate it is available and status 400 or 404 otherwise.
 
-Requirements:
+## Requirements
+
 1. **Frontend**: A single page web-app with the following components
 
 - A list of different websites (Google, Netflix, GitHub, etc.) and a status on whether they are "Available" or "Unavailable"
@@ -22,7 +23,7 @@ Requirements:
 
 3. **Hosting**: Deploy the app using any hosting provider you would like, and send us a link to the dashboard
 
-## Submission
+## Submission Requirements
 - A link to the dashboard 
 - Please invite @hanywang and @hahnbeelee to the private repository 
 - *Must be submitted within 48 hours*
