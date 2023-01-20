@@ -1,10 +1,18 @@
 import { Request, Response, Router } from "express";
+import { websiteData } from "./data";
 
 const statusRouter = Router();
+// '/': address
 
+
+export interface IWebsite {
+  url: string;
+  status: string; // http status
+}
+
+// return a list of IWebsite
 statusRouter.get("/", (req: Request, res: Response) => {
-  // TODO
-  return res.status(200).json({});
+  return res.status(200).json(websiteData);
 });
 
 export default statusRouter;
