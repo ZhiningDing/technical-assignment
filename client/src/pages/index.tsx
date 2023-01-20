@@ -55,7 +55,7 @@ export default function Home() {
                   {
                     websiteData.map((website:IWebsite, index:number)=>{
                       if (website.status=="200"){
-                        return <tr className="border-b bg-green-100 border-green-200">
+                        return <tr className="border-b bg-green-100 border-green-200" key={index}>
                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{index}</td>
                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                       <a href="url">{website.url}</a>
@@ -65,7 +65,7 @@ export default function Home() {
                                     </td>
                                 </tr>
                       }else{
-                        return <tr className="border-b bg-light-100 border--200">
+                        return <tr className="border-b bg-light-100 border--200" key={index}>
                                    <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-900">{index}</td>
                                    <td className="text-sm text-gray-900 font-light px-6 py-4 whitespace-nowrap">
                                       <a href="url">{website.url}</a>
