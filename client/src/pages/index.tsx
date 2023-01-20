@@ -12,7 +12,7 @@ export default function Home() {
   useEffect(() => {
     // call this function once the page loads
     // REST API
-      axios.get('http://localhost:5000/status')
+      axios.get('https://technical-assignment.vercel.app/status')
           .then(function (response) {
             // handle success
             console.log(response.data);
