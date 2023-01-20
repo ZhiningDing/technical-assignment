@@ -2,8 +2,6 @@ import { Request, Response, Router } from "express";
 import { websiteData } from "./data";
 
 const statusRouter = Router();
-// '/': address
-
 
 export interface IWebsite {
   url: string;
