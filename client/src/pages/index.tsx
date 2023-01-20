@@ -1,7 +1,6 @@
 import Head from "next/head";
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 import axios from 'axios';
-
 
 export interface IWebsite {
   url: string;
@@ -24,6 +23,7 @@ export default function Home() {
             console.log(error);
           });
   }, []);
+
   return (
     <>
       <Head>
